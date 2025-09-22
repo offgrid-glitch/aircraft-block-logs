@@ -1,0 +1,201 @@
+export const strings = {
+  // App Title
+  appName: 'Aircraft Block Logs',
+  
+  // Navigation
+  nav: {
+    home: 'Home',
+    logs: 'Logs',
+    settings: 'Settings',
+    help: 'Help',
+  },
+  
+  // Home Screen
+  home: {
+    title: 'Aircraft Block Logs',
+    subtitle: 'Track aircraft block-in/out times',
+    newLogButton: 'Start New Log',
+    recentLogsTitle: 'Recent Logs',
+    noRecentLogs: 'No recent logs found',
+    activeLogTitle: 'Active Log',
+    continueLog: 'Continue Log',
+  },
+  
+  // Block Timer
+  blockTimer: {
+    blockIn: 'Block In',
+    blockOut: 'Block Out',
+    timer: 'Timer',
+    elapsed: 'Elapsed',
+    location: 'Location',
+    timestamp: 'Timestamp',
+    capturePhoto: 'Capture Photo',
+    takePhoto: 'Take Photo',
+    addNote: 'Add Note',
+    locationLoading: 'Getting location...',
+    locationError: 'Location not available',
+  },
+  
+  // Camera
+  camera: {
+    title: 'Capture Photo',
+    takePhoto: 'Take Photo',
+    retakePhoto: 'Retake',
+    usePhoto: 'Use Photo',
+    permissionDenied: 'Camera permission is required',
+    permissionRequest: 'Request Permission',
+    noCamera: 'Camera not available',
+    photoSaved: 'Photo saved',
+    photoError: 'Error saving photo',
+  },
+  
+  // Form Screen
+  form: {
+    title: 'Flight Details',
+    aircraft: 'Aircraft',
+    tailNumber: 'Tail Number',
+    pilot: 'Pilot Name',
+    copilot: 'Co-pilot Name',
+    flightNumber: 'Flight Number',
+    route: 'Route',
+    from: 'From',
+    to: 'To',
+    fuel: 'Fuel Quantity',
+    passengers: 'Passenger Count',
+    cargo: 'Cargo Weight',
+    weather: 'Weather Conditions',
+    notes: 'Notes',
+    discrepancies: 'Discrepancies',
+    maintenance: 'Maintenance Notes',
+    save: 'Save',
+    cancel: 'Cancel',
+    required: 'Required field',
+    validationError: 'Please check all fields',
+  },
+  
+  // Signature
+  signature: {
+    title: 'Signature',
+    sign: 'Sign Here',
+    clear: 'Clear',
+    save: 'Save Signature',
+    required: 'Signature is required',
+  },
+  
+  // Review & Share
+  review: {
+    title: 'Review & Share',
+    summary: 'Summary',
+    photos: 'Photos',
+    signature: 'Signature',
+    export: 'Export',
+    share: 'Share',
+    preview: 'Preview',
+    generateReport: 'Generate Report',
+    exportFormat: 'Export Format',
+    includePhotos: 'Include Photos',
+    includeSignature: 'Include Signature',
+    docx: 'Word Document',
+    csv: 'CSV Spreadsheet',
+    pdf: 'PDF Document',
+    generating: 'Generating report...',
+    exportSuccess: 'Report exported successfully',
+    exportError: 'Error exporting report',
+  },
+  
+  // Logs List
+  logs: {
+    title: 'Logs',
+    searchPlaceholder: 'Search logs...',
+    filterAll: 'All',
+    filterCompleted: 'Completed',
+    filterInProgress: 'In Progress',
+    filterDraft: 'Draft',
+    noLogs: 'No logs found',
+    deleteConfirm: 'Delete this log?',
+    deleteSuccess: 'Log deleted',
+    deleteError: 'Error deleting log',
+    edit: 'Edit',
+    delete: 'Delete',
+    view: 'View',
+    duplicate: 'Duplicate',
+  },
+  
+  // Settings
+  settings: {
+    title: 'Settings',
+    account: 'Account',
+    preferences: 'Preferences',
+    data: 'Data Management',
+    about: 'About',
+    theme: 'Theme',
+    notifications: 'Notifications',
+    autoSave: 'Auto Save',
+    defaultAircraft: 'Default Aircraft',
+    exportData: 'Export All Data',
+    importData: 'Import Data',
+    clearData: 'Clear All Data',
+    clearDataConfirm: 'This will delete all logs permanently. Continue?',
+    version: 'Version',
+    buildNumber: 'Build',
+    privacy: 'Privacy Policy',
+    terms: 'Terms of Service',
+  },
+  
+  // Help
+  help: {
+    title: 'Help & Support',
+    gettingStarted: 'Getting Started',
+    faq: 'Frequently Asked Questions',
+    contact: 'Contact Support',
+    documentation: 'Documentation',
+    tutorials: 'Video Tutorials',
+    reportBug: 'Report a Bug',
+    requestFeature: 'Request Feature',
+  },
+  
+  // Common
+  common: {
+    ok: 'OK',
+    cancel: 'Cancel',
+    save: 'Save',
+    delete: 'Delete',
+    edit: 'Edit',
+    done: 'Done',
+    next: 'Next',
+    back: 'Back',
+    close: 'Close',
+    retry: 'Retry',
+    loading: 'Loading...',
+    error: 'Error',
+    success: 'Success',
+    warning: 'Warning',
+    info: 'Info',
+    yes: 'Yes',
+    no: 'No',
+    confirm: 'Confirm',
+    search: 'Search',
+    filter: 'Filter',
+    sort: 'Sort',
+    refresh: 'Refresh',
+    share: 'Share',
+    export: 'Export',
+    import: 'Import',
+    required: '*',
+    optional: '(optional)',
+  },
+  
+  // Errors
+  errors: {
+    generic: 'Something went wrong. Please try again.',
+    network: 'Network error. Please check your connection.',
+    permission: 'Permission denied',
+    notFound: 'Not found',
+    validation: 'Please check your input',
+    camera: 'Camera error',
+    location: 'Location error',
+    storage: 'Storage error',
+    export: 'Export error',
+    import: 'Import error',
+  },
+};
