@@ -1,10 +1,9 @@
 import React from 'react';
-import { StatusBar } from 'expo-status-bar';
 import { Provider as PaperProvider } from 'react-native-paper';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
 
-import AppNavigator from '@/navigation/AppNavigator';
+import AppNavigator from './src/navigation/AppNavigator';
 
 export default function App() {
   return (
@@ -12,7 +11,6 @@ export default function App() {
       <PaperProvider>
         <NavigationContainer>
           <AppNavigator />
-          <StatusBar style="auto" />
         </NavigationContainer>
       </PaperProvider>
     </SafeAreaProvider>

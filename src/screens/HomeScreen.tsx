@@ -53,7 +53,7 @@ export default function HomeScreen() {
   };
 
   const handleStartNewLog = () => {
-    navigation.navigate('BlockInCamera');
+    navigation.navigate('BlockInCamera', {});
   };
 
   const handleContinueLog = () => {

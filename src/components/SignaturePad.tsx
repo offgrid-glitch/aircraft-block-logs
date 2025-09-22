@@ -102,10 +102,6 @@ export default function SignaturePad({
               trimWhitespace={true}
               minWidth={2}
               maxWidth={4}
-              canvasProps={{
-                width: 300,
-                height: 200,
-              }}
             />
           </View>
 

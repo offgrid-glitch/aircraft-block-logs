@@ -231,7 +231,7 @@ export default function ReviewShare({
             {strings.review.exportFormat}
           </Text>
           <RadioButton.Group
-            onValueChange={setExportFormat}
+            onValueChange={(value) => setExportFormat(value as 'docx' | 'csv' | 'pdf')}
             value={exportFormat}
           >
             <View style={styles.radioOption}>
